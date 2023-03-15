@@ -236,7 +236,7 @@ char ::= ' <any UTF-8 symbol> '
 
 ### Схема DataPath и ControlUnit
 
-![scheme img](/images/image.png "Схема DataPath и ControlUnit") 
+![https://github.com/lisaaviss/CA_lab3/blob/main/images/img.jpg](https://github.com/lisaaviss/CA_lab3/blob/main/images/img.jpg) 
 
 ## DataPath
 
