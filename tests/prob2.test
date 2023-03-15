@@ -1,0 +1,86 @@
+{
+"code": [
+{
+"opcode": "ld",
+"arg1": "r0",
+"arg2": "1",
+"arg2_type": "const"
+},
+{
+"opcode": "ld",
+"arg1": "r1",
+"arg2": "1",
+"arg2_type": "const"
+},
+{
+"opcode": "add",
+"arg1": "r2",
+"arg2": "0",
+"arg2_type": "const",
+"out": "r2"
+},
+{
+"opcode": "je",
+"arg1": "r0",
+"arg2": "4000000",
+"arg2_type": "const"
+},
+{
+"opcode": "mod",
+"arg1": "r0",
+"arg2": "2",
+"arg2_type": "const",
+"out": "r3"
+},
+{
+"opcode": "je",
+"arg1": "r3",
+"arg2": "0",
+"arg2_type": "const"
+},
+{
+"opcode": "add",
+"arg1": "r2",
+"arg2": "r0",
+"arg2_type": "reg",
+"out": "r2"
+},
+{
+"opcode": "add",
+"arg1": "r3",
+"arg2": "r1",
+"arg2_type": "reg",
+"out": "r3"
+},
+{
+"opcode": "add",
+"arg1": "r0",
+"arg2": "r1",
+"arg2_type": "reg",
+"out": "r0"
+},
+{
+"opcode": "add",
+"arg1": "r1",
+"arg2": "r3",
+"arg2_type": "reg",
+"out": "r1"
+},
+{
+"opcode": "jmp",
+"arg2": "3",
+"arg2_type": "const"
+},
+{
+"opcode": "out",
+"arg2": "r2",
+"arg2_type": "reg"
+},
+{
+"opcode": "halt"
+}
+],
+"data": [
+"0"
+]
+}

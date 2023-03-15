@@ -1,0 +1,41 @@
+{
+    "code": [
+        {
+            "opcode": "sti"
+        },
+        {
+            "opcode": "halt"
+        },
+        {
+            "opcode": "sv",
+            "arg2": "sp",
+            "arg2_type": "reg",
+            "arg1": "r1"
+        },
+        {
+            "opcode": "in",
+            "arg2": "r1",
+            "arg2_type": "reg"
+        },
+        {
+            "opcode": "out",
+            "arg2": "r1",
+            "arg2_type": "reg"
+        },
+        {
+            "opcode": "ld",
+            "arg2": "sp",
+            "arg2_type": "reg",
+            "out": "r1"
+        },
+        {
+            "opcode": "iret"
+        },
+        {
+            "opcode": "halt"
+        }
+    ],
+    "data": [
+        "2"
+    ]
+}

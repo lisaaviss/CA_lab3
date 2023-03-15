@@ -1,0 +1,65 @@
+{
+    "code": [
+        {
+            "opcode": "out",
+            "arg2": "104",
+            "arg2_type": "const"
+        },
+        {
+            "opcode": "out",
+            "arg2": "101",
+            "arg2_type": "const"
+        },
+        {
+            "opcode": "out",
+            "arg2": "108",
+            "arg2_type": "const"
+        },
+        {
+            "opcode": "out",
+            "arg2": "108",
+            "arg2_type": "const"
+        },
+        {
+            "opcode": "out",
+            "arg2": "111",
+            "arg2_type": "const"
+        },
+        {
+            "opcode": "out",
+            "arg2": "32",
+            "arg2_type": "const"
+        },
+        {
+            "opcode": "out",
+            "arg2": "119",
+            "arg2_type": "const"
+        },
+        {
+            "opcode": "out",
+            "arg2": "111",
+            "arg2_type": "const"
+        },
+        {
+            "opcode": "out",
+            "arg2": "114",
+            "arg2_type": "const"
+        },
+        {
+            "opcode": "out",
+            "arg2": "108",
+            "arg2_type": "const"
+        },
+        {
+            "opcode": "out",
+            "arg2": "100",
+            "arg2_type": "const"
+        },
+        {
+            "opcode": "halt"
+        }
+    ],
+    "data": [
+        "0"
+    ]
+}

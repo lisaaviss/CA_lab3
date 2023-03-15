@@ -1,0 +1,12 @@
+section text
+out 'h'
+out 'e'
+out 'l'
+out 'l'
+out 'o'
+out ' '
+out 'w'
+out 'o'
+out 'r'
+out 'l'
+out 'd'
